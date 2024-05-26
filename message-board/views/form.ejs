@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title><%= title %></title>
+		<link rel="stylesheet" href="/stylesheets/style.css" />
+	</head>
+	<body>
+		<h1><%= title %></h1>
+		<form action="/new" method="post" class="message-form">
+			<label for="user">Author:</label>
+			<input type="text" id="user" name="user" required />
+			<label for="text">Message:</label>
+			<textarea id="text" name="text" required></textarea>
+			<button type="submit">Submit</button>
+		</form>
+		<p><a href="/">Back to Home</a></p>
+	</body>
+</html>

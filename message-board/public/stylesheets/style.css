@@ -6,3 +6,50 @@ body {
 a {
   color: #00B7FF;
 }
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 8px 0;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px 0;
+}
+
+.message-form label {
+  margin-top: 10px;
+}
+
+.message-form input,
+.message-form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.message-form button {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.message-form button:hover {
+  background-color: #0056b3;
+}
